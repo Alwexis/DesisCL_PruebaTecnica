@@ -1,5 +1,3 @@
-## Prueba Técnica Desis.cl
-
 - Descargar el Proyecto
 
 - Instalar XAMPP (https://www.apachefriends.org/es/download.html)
@@ -14,5 +12,5 @@
 - Ir al navegador e ingresar la dirección http://localhost/pruebatecnica/
 
 
-#### VERSIÓN DE PHP: 8.1.10
-#### VERSIÓN DE MYSQL (MariaDB): 10.4.25 
+## VERSIÓN DE PHP: 8.1.10
+## VERSIÓN DE MYSQL (MariaDB): 10.4.25 

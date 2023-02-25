@@ -1,0 +1,69 @@
+h1 {
+  font-family: sans-serif;
+  font-size: 3.5vh;
+}
+
+form {
+  width: 80%;
+}
+form .input-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60%;
+  box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px 1px inset;
+  padding: 1.5vh 2.5vh;
+}
+form .input-wrapper .form-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0.75vh 0vh;
+}
+form .input-wrapper .form-input input, form .input-wrapper .form-input select {
+  display: flex;
+  justify-self: flex-start;
+  min-width: 40%;
+  max-width: 40%;
+  padding: 0.25vh 0.75vh;
+}
+form .input-wrapper .form-input .check-box-wrapper {
+  display: flex;
+  align-items: center;
+}
+form .input-wrapper .form-input .check-box-wrapper .check-box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form .input-wrapper .error-messages {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  margin: 1vh 0vh;
+}
+form .input-wrapper .error-messages .error-title {
+  color: red;
+  font-size: 2.2vh;
+  margin: 0.5vh 1.5vh;
+  font-family: monospace;
+  font-weight: 800;
+}
+form .input-wrapper .error-messages .errors {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-top: 1px groove;
+  border-bottom: 1px groove;
+  padding: 1vh 0vh;
+}
+form .input-wrapper .error-messages .errors span {
+  color: red;
+  font-size: 2vh;
+  margin: 0.5vh 1.5vh;
+  font-family: monospace;
+}
+form input[type=submit] {
+  margin-top: 2vh;
+}/*# sourceMappingURL=index.css.map */
